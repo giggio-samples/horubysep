@@ -8,7 +8,6 @@ describe 'nf printer' do
 				cattr_accessor :called
 				def self.print msg
 					self.called = true
-					puts 'passei por aqui'
 				end			
 		end
 		inv = NF.invoice 1000.34, 'gad3'	
